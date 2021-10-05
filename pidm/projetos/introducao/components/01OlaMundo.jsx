@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {Text,View} from 'react-native'
 
-class OlaMundo extends Component{
+class OlaMundo extends React.Component{
     render(){
       //aqui dentro vai ficar o código JSX
       return (

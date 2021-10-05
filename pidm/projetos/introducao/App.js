@@ -1,14 +1,13 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import OlaMundo from './components/OlaMundo'
-import Professor from './components/Professor'
+import OlaMundo from './components/01OlaMundo'
+//import Professor from './components/02Professor'
+import Professor from './components/03Professor';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Professor/>
-      <OlaMundo />
       <Professor/>
       <OlaMundo />
     </View>

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Text,View} from 'react-native'
 
-function Professor(){
+function professor(){
     return (
         <View>
             <Text style={{color:'red',fontWeight:'bold'}}>
@@ -11,4 +11,4 @@ function Professor(){
     )
 }
 
-export default Professor
+export default professor

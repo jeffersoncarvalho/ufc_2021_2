@@ -1,25 +1,62 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
 //import OlaMundo from './components/01OlaMundo'
 //import Professor from './components/02Professor'
 //import Professor from './components/03Professor';
 //import MeuProps from './components/04MeuProps'
-import MeuProps from './components/05MeuProps';
+/*import MeuProps from './components/05MeuProps';
 import ProfessorAragao from './components/06ProfessorAragao';
 import Vingadores from './components/07Vingadores'
+
 
 const imagem = {uri:'https://www.quixada.ufc.br/wp-content/uploads/2015/05/Arag%C3%A3o-240x320.png'}
 const imagem2 = {uri:'https://www.quixada.ufc.br/wp-content/uploads/2015/05/Jeandro-de-Mesquita-Bezerra1-240x320.png'}
 const imagem3 = {uri:'https://www.quixada.ufc.br/wp-content/uploads/2015/11/Jo%C3%A3o-240x320.png'}
+*/
+
+/*import {Hulk as H,Loki as L} from './components/08Vingadores';
 
 export default function App() {
+  return (
+    <View style={styles.container}>
+       <H nome='Jefferson' />
+       <L nome='Pedro' />
+    </View>
+  );
+}*/
+
+/*import Casa from './components/11got/Casa'
+import Personagem from './components/11got/Personagem';
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Casa casa='Targeryan' canal='HBO'>
+        <Personagem nome='Tyrion' />
+        <Personagem nome='Tywin' />
+      </Casa>
+    </View>
+  );
+}*/
+
+import IMC from './components/12IMC'
+import MyState from './components/13State';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <MyState />
+    </View>
+  );
+}
+
+/*export default function App() {
   return (
     <View style={styles.container}>
        <Vingadores />
     </View>
   );
-}
+}*/
 
 /*export default function App() {
   return (

@@ -39,14 +39,15 @@ export default function App() {
   );
 }*/
 
-import IMC from './components/12IMC'
-import MyState from './components/13State';
+//import IMC from './components/12IMC'
+//import MyState from './components/13State';
+//import VotacaoCidades from './components/15VotacaoCidades';
+//import EstudoEstilos from './components/16Estilos'
+import MyFlex from './components/18Flexbox'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <MyState />
-    </View>
+    <MyFlex />
   );
 }
 

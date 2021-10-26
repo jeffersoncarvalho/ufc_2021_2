@@ -17,15 +17,31 @@ import { StyleSheet, View } from 'react-native';
 //import IMC from './components/12IMC'
 //import IMC from './components/13IMC'
 //import MyState from './components/14State'
-import MyHook from './components/15Hooks'
+//import MyHook from './components/15Hooks'
+//import MyStyle from './components/16Estilos'
+import MyFlex from './components/18Flexbox'
 
 export default function App() {
+  return (
+    <MyFlex/>
+  );
+}
+
+/*export default function App() {
+  return (
+    <View style={styles.container}>
+      <MyStyle/>
+    </View>
+  );
+}*/
+
+/*export default function App() {
   return (
     <View style={styles.container}>
       <MyHook/>
     </View>
   );
-}
+}*/
 
 /*export default function App() {
   return (
@@ -124,9 +140,10 @@ function calculo(){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    flexDirection: 'row',
     justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',    
   },
 });
 

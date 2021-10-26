@@ -9,7 +9,6 @@ class MyState extends Component {
     }
 
     acaoBotao(){
-        //alert('Ingrid Vitória')
         //this.contador++
         this.setState({contador:this.state.contador+1})
     }

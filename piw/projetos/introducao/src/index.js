@@ -13,10 +13,13 @@ import ReactDOM from 'react-dom'
 //import Casa from './components/11got/Casa'
 //import Personagem from './components/11got/Personagem'
 //import PersonagemIrmao from './components/11got/PersonagemIrmao'
-import IMC from './components/12IMC'
+//import IMC from './components/12IMC'
+//import VotaCidades from './components/14VotaCidades'
+import VotaCidades from './components/15VotaCidades'
 
 const root = document.getElementById('root')
-//ReactDOM.render(<OlaMundo/>,root)
+ReactDOM.render(<VotaCidades/>,root)
+
 /*ReactDOM.render(
     <MeuProps 
         nome='Jefferson de Carvalho' 
@@ -70,8 +73,3 @@ const root = document.getElementById('root')
     , root)
     */
 
-    ReactDOM.render(
-        <div>
-            <IMC peso={91} altura={1.83}/>
-        </div>
-        , root)

@@ -43,13 +43,21 @@ export default function App() {
 //import MyState from './components/13State';
 //import VotacaoCidades from './components/15VotacaoCidades';
 //import EstudoEstilos from './components/16Estilos'
-import MyFlex from './components/18Flexbox'
+//import MyFlex from './components/18Flexbox'
+//import CalculadoraApp from './components/20Calculadora/20CalculadoraApp';
+import EntradaComBotao from './components/21ExemploBotao/21EntradaComBotao';
 
 export default function App() {
+  return(
+    <EntradaComBotao />
+  )
+}
+
+/*export default function App() {
   return (
     <MyFlex />
   );
-}
+}*/
 
 /*export default function App() {
   return (

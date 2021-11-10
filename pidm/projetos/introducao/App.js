@@ -39,20 +39,6 @@ export default function App() {
   );
 }*/
 
-//import IMC from './components/12IMC'
-//import MyState from './components/13State';
-//import VotacaoCidades from './components/15VotacaoCidades';
-//import EstudoEstilos from './components/16Estilos'
-//import MyFlex from './components/18Flexbox'
-//import CalculadoraApp from './components/20Calculadora/20CalculadoraApp';
-import EntradaComBotao from './components/21ExemploBotao/21EntradaComBotao';
-
-export default function App() {
-  return(
-    <EntradaComBotao />
-  )
-}
-
 /*export default function App() {
   return (
     <MyFlex />
@@ -84,6 +70,22 @@ function calculo(){
 }
 */
 
+//import IMC from './components/12IMC'
+//import MyState from './components/13State';
+//import VotacaoCidades from './components/15VotacaoCidades';
+//import EstudoEstilos from './components/16Estilos'
+//import MyFlex from './components/18Flexbox'
+//import CalculadoraApp from './components/20Calculadora/20CalculadoraApp';
+//import EntradaComBotao from './components/21ExemploBotao/21EntradaComBotao';
+//import Tocavel from './components/22TocavelNetwork/Tocavel';
+//import MeuScroll from './components/22TocavelNetwork/Scrolling'
+import MeuFlatList from './components/22TocavelNetwork/MeuFlatList'
+
+export default function App() {
+  return(
+    <MeuFlatList />
+  )
+}
 
 const styles = StyleSheet.create({
   container: {

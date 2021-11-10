@@ -1,0 +1,30 @@
+{
+  "alunos": [
+    {
+      "nome": "João de Tal da Silva",
+      "curso": "Sistemas de Informação",
+      "IRA": "9.5",
+      "id": 2
+    },
+    {
+      "nome": "Malba Tahan",
+      "curso": "Redes de Computadores",
+      "IRA": "8.6",
+      "id": 5
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Fco. Aragão",
+      "curso": "Sistemas de Informação"
+    }
+  ],
+  "disciplinas": [
+    {
+      "id": 1,
+      "nome": "Fundamentos de Programação",
+      "curso": "Sistemas de Informação"
+    }
+  ]
+}

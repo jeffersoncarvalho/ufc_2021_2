@@ -5,6 +5,7 @@ import {Link, Switch, Route} from 'react-router-dom'
 import Home from './components/Home'
 import CreateAluno from './components/aluno/CreateAluno'
 import ListAluno from './components/aluno/ListAluno'
+import EditAluno from './components/aluno/EditAluno'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
        <Route exact path='/' component={Home}/>
        <Route path='/createAluno' component={CreateAluno}/>
        <Route path='/listAluno' component={ListAluno}/>
+       <Route path='/editAluno/:id' component={EditAluno}/>
      </Switch>
     </div>
   );

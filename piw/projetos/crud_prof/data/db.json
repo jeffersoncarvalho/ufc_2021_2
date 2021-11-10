@@ -1,0 +1,6 @@
+{
+    "alunos":[
+        {"id":1,"nome":"Jefferson"},
+        {"id":2,"nome":"Thomas"}
+    ]
+}

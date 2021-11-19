@@ -79,11 +79,13 @@ function calculo(){
 //import EntradaComBotao from './components/21ExemploBotao/21EntradaComBotao';
 //import Tocavel from './components/22TocavelNetwork/Tocavel';
 //import MeuScroll from './components/22TocavelNetwork/Scrolling'
-import MeuFlatList from './components/22TocavelNetwork/MeuFlatList'
+//import MeuFlatList from './components/22Tocavel/MeuFlatList'
+//import MySectionList from './components/23SectionNetWorking/MySectionList';
+import MyNetworking from './components/23SectionNetWorking/MyNetworking';
 
 export default function App() {
   return(
-    <MeuFlatList />
+    <MyNetworking />
   )
 }
 

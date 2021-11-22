@@ -6,6 +6,7 @@ let _id = 1
 class DisciplinaService {
 
     static register(data) {
+        console.log(data)
         let disciplina = new DisciplinaModel(
             _id++,
             data.nome,

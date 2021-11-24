@@ -30,7 +30,7 @@ export default function Routes() {
                     },
                 })}
                 tabBarOptions={{
-                    activeTintColor: 'tomato',
+                    activeTintColor: 'blue',
                     inactiveTintColor: 'gray',
                 }}
             >

@@ -48,7 +48,7 @@ const ListUserScreen = (props) => {
                             <Avatar
                                 source={{
                                     uri:
-                                        "https://www.quixada.ufc.br/wp-content/uploads/2015/05/Aragão-240x320.png",
+                                        "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
                                 }}
                                 rounded
                             />

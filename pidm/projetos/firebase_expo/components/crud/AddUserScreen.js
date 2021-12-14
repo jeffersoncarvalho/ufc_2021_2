@@ -3,7 +3,7 @@ import {View,Text,Button,TextInput,ScrollView,StyleSheet} from 'react-native'
 
 import firebase from '../../firebase/firebase_config'
 
-const AddUserScreen = () => {
+const AddUserScreen = (props) => {
 
     const initialState = {name:'',email:'',phone:''}
     const [state, setState] = useState(initialState)
@@ -21,8 +21,9 @@ const AddUserScreen = () => {
                 email: state.email,
                 phone: state.phone
             })
-            console.log('OK!')
+            //console.log('OK!')
             //navegaria para listagem de usuários
+            props.navigation.navigate('ListUserScreen')
         }catch(error){
             console.log(error)
         }

@@ -11,7 +11,7 @@ const MainStack = createStackNavigator()
 function MainStackScreens() {
     return(
         <NavigationContainer>
-            <MainStack.Navigator>
+            <MainStack.Navigator initialRouteName='ListUserScreen'>
                 <MainStack.Screen 
                     name='AddUserScreen'
                     component={AddUserScreen}

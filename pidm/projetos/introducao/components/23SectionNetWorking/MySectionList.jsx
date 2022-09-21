@@ -2,31 +2,36 @@ import React, { Component } from 'react'
 import { SectionList, StyleSheet, Text, TextInput, View } from 'react-native'
 
 export default class MySectionList extends Component {
-    render() {
+    render(){
         return (
             <View style={estilos.container}>
                 <SectionList
+                    
 
                     sections={
                         [
-                            { title: 'A', data: ['Alberto', 'Abner', 'Amanda', 'Ashley'] },
-                            { title: 'B', data: ['Beto', 'Beltrano'] },
-                            { title: 'C', data: ['Cristina', 'Carlos'] }
+                            { title: 'A', data: ['Almeida', 'Abner', 'Jacinta', 'Ashley'] },
+                            { title: 'B', data: ['Carlos', 'Jucelia', 'Samanda', 'Janna'] },
+                            { title: 'C', data: ['Creusa', 'Abner', 'Luiza', 'Jaice'] }
+
                         ]
                     }
 
                     renderSectionHeader={
-                        ({ section }) =>
-                            <Text style={estilos.sectionHeader}> 
+                        ({ section }) => {
+                           return <Text style={estilos.sectionHeader}> 
                                 {section.title}
                             </Text>
+                        }
                     }
                     renderItem={
-                        ({ item }) =>
-                            <Text style={estilos.sectionItem}>
+                        ({ item }) => 
+                            <Text>
                                 {item}
                             </Text>
+                        
                     }
+                    
                     keyExtractor={
                         (item, index) => index + item
                     }
